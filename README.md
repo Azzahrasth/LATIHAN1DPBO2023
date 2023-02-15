@@ -20,8 +20,10 @@ Terdapat 2 Kelas yaitu kelas Mahasiswa dan Crud
   - DELETE : menghapus objek mahasiswa yang dipilih (nim dijadikan patokan dalam memilih objek yang akan di hapus)
 
 ## -- Penjelasan Alur --
-- Pertama, intansiasi objek Crud untuk membuat list of objek mahasiswa.
-- Lalu program akan menampilkan menu CRUD (Create, Read, Update, Dellete), dan user diminta untuk menginput nilai integer untuk memilih menu yang diinginkan
+- Pertama, import library dan file kelas yang digunakan
+- intansiasi objek Crud untuk membuat list of objek mahasiswa.
+- Lalu masuk ke dalam looping crud
+- Program akan menampilkan menu CRUD (Create, Read, Update, Dellete), dan user diminta untuk menginput nilai integer untuk memilih menu yang diinginkan
 - Jika user menginput 1 maka akan dilakukan proses create objek mahasiswa, user akan diminta untuk menginputkan data objek mahasiswa berupa nim, nama, prodi dan fakultas. Selanjutnya program memanggil method create pada crud
 - Jika user menginput 2 maka akan dilakukan proses read/menampilkan list of objek mahasiswa, lalu program memanggil method read pada crud
 - Jika user menginput 3 maka akan dilakukan proses update objek mahasiswa, user akan diminta untuk menginputkan data objek mahasiswa berupa nim mahasiswa yang data nya akan diubah. Selanjutnya program memanggil method update pada crud, dalam method update ini apabila nim yang akan diubah ditemukan pada list maka user pelu menginputkan data mahasiswa berupa nama, prodi, fakultas dan foto yang terbaru
