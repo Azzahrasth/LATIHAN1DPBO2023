@@ -1,6 +1,6 @@
 # LATIHAN1DPBO2023
 
--- Desain Program --
+# -- Desain Program --
 Terdapat 2 Kelas yaitu kelas Mahasiswa dan Crud
 
 1. Kelas Mahasiswa 
@@ -17,7 +17,7 @@ memiliki public method :
 - UPDATE : merubah/mengupdate data nama, prodi, fakultas, dan foto mahasiswa dari objek mahasiswa yang dipilih (nim dijadikan patokan dalam memilih objek yang akan di update)
 - DELETE : menghapus objek mahasiswa yang dipilih (nim dijadikan patokan dalam memilih objek yang akan di hapus)
 
--- Penjelasan Alur --
+# -- Penjelasan Alur --
 Pertama, intansiasi objek Crud untuk membuat list of objek mahasiswa.
 Lalu program akan menampilkan menu CRUD (Create, Read, Update, Dellete), dan user diminta untuk menginput nilai integer untuk memilih menu yang diinginkan
 Jika user menginput 1 maka akan dilakukan proses create objek mahasiswa, user akan diminta untuk menginputkan data objek mahasiswa berupa nim, nama, prodi dan fakultas. Selanjutnya program memanggil method create pada crud
@@ -26,15 +26,15 @@ Jika user menginput 3 maka akan dilakukan proses update objek mahasiswa, user ak
 Jika user menginput 4 maka akan dilakukan proses delete objek mahasiswa, user akan diminta untuk menginputkan data objek mahasiswa berupa nim mahasiswa yang objek nya akan di hapus dari list. Selanjutnya program memanggil method delete pada crud.
 Jika user menginput 0 maka keluar dari program
 
--- Dokumentasi saat Program  di Jalankan --
-Program dengan CPP
+# -- Dokumentasi saat Program  di Jalankan --
+## Program dengan CPP
 ![1](https://user-images.githubusercontent.com/100898963/219065544-88980119-c0d8-493c-a78a-c4be902fbdc5.jpg)
 ![2](https://user-images.githubusercontent.com/100898963/219065557-5c449f36-7d21-46c3-944e-f4ac786ae268.jpg)
 ![3](https://user-images.githubusercontent.com/100898963/219065562-5ad61f1a-00bd-48b3-8062-2287fae1cfe8.jpg)
 ![4](https://user-images.githubusercontent.com/100898963/219065565-c84ece92-c6e3-4b7a-8823-be9257b1e9b7.jpg)
 ![5](https://user-images.githubusercontent.com/100898963/219065571-8c153070-37d9-4dec-b218-859fc724cfbd.jpg)
 
-Program dengan PHP
+## Program dengan PHP
 ![1](https://user-images.githubusercontent.com/100898963/219067746-c6984f4b-0659-42f0-b23a-f4993e4ef010.jpg)
 ![2](https://user-images.githubusercontent.com/100898963/219067759-e29d7217-e5c0-4d6c-bd8e-5ff02dc50f74.jpg)
 
